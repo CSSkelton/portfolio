@@ -31,6 +31,7 @@ body.dark-theme {
     --table-hover-background-color: #48abe0;
     --table-hover-color: #fff;
     --container-border-color: #48abe0;
+    --ord-background: #fff;
 }
 
 /* Font Styling */
@@ -138,6 +139,10 @@ li {
     justify-content: space-around;
     align-items: center;
     background-color: #424242;
+}
+
+.ord {
+    background-color: var(--ord-background);
 }
 
 /* Form Elements */
