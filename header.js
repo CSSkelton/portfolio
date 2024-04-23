@@ -18,7 +18,15 @@ class Header extends HTMLElement {
                         <li><a href="projects.html">Projects</a></li>
                         <li><a href="db.html">DB Diagrams</a></li>
                         <li><a href="api.html">API Unit Tests</a></li>
-                        <li><a href="web-430/skelton-tech-value-stream.html">Presentations</a></li>
+                        <li>
+                            <div class="dropdown">
+                                <button class="dropbtn">Presentations</button>
+                                <div class="dropdown-content">
+                                    <a href="web-430/skelton-tech-value-stream.html">Tech Value Stream</a>
+                                    <a href="web-430/skelton-two-pizza-rule.html">Two-Pizza Rule</a>
+                                </div>
+                            </div>
+                        </li>
                     </ul>
                 </nav>
             </div>
